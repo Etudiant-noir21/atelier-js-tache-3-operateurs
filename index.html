@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les opérateurs et les conditions</title>
+</head>
+<body>
+    <h1>Les opérateurs et les conditions</h1>
+
+    <h2>exo2: a- manipulation d'operateurs  </h2>
+    <script>
+        let a = 5;
+        let b = 3;
+        let c = 2;
+       
+        let somme = a + b + c;
+        console.log('La somme des 3 variables est : ' +  somme);
+
+        //b- le produit des trois variables
+        let produit = a * b * c;
+        alert('Le produit des 3 variables est : ' + produit );
+
+        // c- le table de multiplication de 1 a 9
+        for(let i = 1; i <= 9; i++){
+            console.log("\n table multipliaction  de : ", i);
+           for(let j = 1; j <= 10; j++){
+            // affichcher sur la console
+               console.log(i + ' x ' + j + ' = ' + i * j);
+           }
+        }
+
+        
+
+        // somme de a + b /c
+
+        console.log('\n calcule de la somme')
+        let somme2 = (a + b) / c;
+        console.log('La somme de a + b /c est : ' + somme2);
+    </script>
+</body>
+</html>
